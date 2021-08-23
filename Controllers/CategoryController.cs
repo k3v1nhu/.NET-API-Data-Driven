@@ -34,7 +34,7 @@ namespace Shop.Controllers
 
         [Route("")]
         [HttpPost]
-        public async Task<ActionResult<List<Category>>> Post(
+        public async Task<ActionResult<Category>> Post(
             [FromBody]Category model,
             [FromServices]DataContext context    
         )

@@ -1,38 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\Documents\\GitHub\\Shop\\Shop\\Shop.csproj": {}
+    "/home/kpert/Documents/Github/.NET-API-Data-Driven/Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\Documents\\GitHub\\Shop\\Shop\\Shop.csproj": {
+    "/home/kpert/Documents/Github/.NET-API-Data-Driven/Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Documents\\GitHub\\Shop\\Shop\\Shop.csproj",
+        "projectUniqueName": "/home/kpert/Documents/Github/.NET-API-Data-Driven/Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\kevin\\Documents\\GitHub\\Shop\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Documents\\GitHub\\Shop\\Shop\\obj\\",
+        "projectPath": "/home/kpert/Documents/Github/.NET-API-Data-Driven/Shop.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/kpert/Documents/Github/.NET-API-Data-Driven/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -43,14 +34,9 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.9, )"
             },
@@ -69,12 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.411/RuntimeIdentifierGraph.json"
         }
       }
     }
